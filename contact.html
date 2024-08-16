@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Totally Semantic Title</title>
+
+		<!-- Meta Information -->
+		<meta name="author" content="John Engracia ">
+		<meta name="description" content=" ">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/modern-reset.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/svg/creative-studio-logo.svg" alt="logo">
+
+            
+            <img src="img/svg/menu.svg" alt="arrow">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">OUR WORK</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li>
+                    <div class="search-container">
+                        <img src="img/svg/search-icon.svg" alt="Search Icon" class="search-icon">
+                        <input type="text" placeholder="Search" class="search-input">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact">
+            <h2>CONTACT US</h2>
+        </div>
+
+
+        <div class="help">
+            <h3>HOW CAN WE HELP TODAY?</h3>
+
+            <p>
+                Looking to start a new project or just to chat? Send us an email, give us a call or fill hte form below with your details and we will be happy to discuss your ideas.
+            </p>
+
+            <div class="contact-section">
+                <h3>Email us. Say Hello!</h3>
+                <p><a href="mailto:hello@creativestudio.com">hello@creativestudio.com</a></p>
+            
+                <h3>Visit or Call</h3>
+            
+                <div class="office">
+                    <h4>New York Office</h4>
+                    <p>136 W 30th Street</p>
+                    <p>New York, NY 10038</p>
+                    <p>(310) 570 - 4482</p>
+                    <p>Mon - Fri: 9am - 5pm</p>
+                </div>
+            
+                <div class="office">
+                    <h4>Manhattan Beach Office</h4>
+                    <p>1800 Larsson Street</p>
+                    <p>Manhattan Beach, CA 90266</p>
+                    <p>(424) 223 - 3767</p>
+                    <p>Mon - Fri: 8:30am - 4:30pm</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Tell us about you?</h3>
+            
+            <form action="#" method="POST">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+        
+                <label for="company">Company / Organization</label>
+                <input type="text" id="company" name="company" placeholder="Company / Organization" required>
+        
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+        
+                <label for="city">City / Location (Optional)</label>
+                <input type="text" id="city" name="city" placeholder="City / Location">
+        
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+        
+                <label for="website">Website (Optional)</label>
+                <input type="url" id="website" name="website" placeholder="Website (Optional)">
+        
+                <label for="budget">What is your budget?</label>
+                <select id="budget" name="budget" required>
+                    <option value="$10K - 14K">$10K - 14K</option>
+                    <option value="$15K - 20K">$15K - 20K</option>
+                    <option value="$21K - 30K">$21K - 30K</option>
+                    <option value="Other">Other</option>
+                </select>
+        
+                <label for="project">Tell us about your project</label>
+                <small>*Be specific</small>
+                <textarea id="project" name="project" placeholder="In 350 words or less." rows="4" required></textarea>
+        
+                <button type="submit" class="submit-btn">
+                    SEND US YOUR PROJECT
+                    <img src="img/svg/right-arrow.svg" alt="arrow">
+                </button>
+            </form>
+        </div>
+        
+        
+    </main>
+
+
+    <footer>
+        <div class="left-section">
+            <h3>OUR OFFICES</h3>
+            <div class="info">
+                <p>136 W 30th Street</p>
+                <p>New York, NY 10038</p>
+                <p>(310) 570-4482</p>
+                <p>Mon - Fri 9am - 5pm</p>
+            </div>
+            
+            <div class="info">
+                <p>1800 Larsson Street</p>
+                <p>Manhattan Beach, CA 90266</p>
+                <p>(424) 223-3367</p>
+                <p>Mon - Fri 8:30am - 4:30pm</p>
+            </div>
+            
+            <div class="info">
+                <p>Email us, say hello!</p>
+                <p>hello@creativestudio.com</p>
+            </div>
+        </div>
+    
+        <div class="right-section">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            
+            <input type="email" placeholder="EMAIL ADDRESS">
+            <button class="subscribe">SUBSCRIBE NOW!</button>
+    
+            <p>
+                You may unsubscribe from our monthly newsletter at any time. Check out our Privacy policy for more information on how we store and protect your data.
+            </p>
+        </div>
+    
+        <div class="bottom">
+            <div class="icons">
+                <img src="img/svg/instagram-brands.svg" alt="ig">
+                <img src="img/svg/facebook-f-brands.svg" alt="fb">
+                <img src="img/svg/mailchimp-brands.svg" alt="chimp">
+            </div>
+            <p>Copyright 2022 | For educational purposes only | Privacy Policy</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
