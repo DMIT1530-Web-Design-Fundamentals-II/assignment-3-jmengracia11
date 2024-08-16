@@ -985,7 +985,6 @@ footer .bottom p {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url('img/svg/dropdown-arrow.svg') no-repeat right 10px center;
     background-color: #ffffff;
     background-size: 10px;
     padding-right: 30px;
@@ -1027,5 +1026,7 @@ footer .bottom p {
     background-color: #191654;
     color: #ecf9f6;
 }
+
+
 
 
